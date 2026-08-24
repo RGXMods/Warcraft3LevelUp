@@ -10,7 +10,7 @@
 ## Notes:  Play a Warcraft 3-inspired level-up sound!  |n|r  |cffb4d0fa/wc3lu -|r Open help  |n|r   |cffb4d0faBy DonnieDice|r
 
 ## X-Category: UI Media, Questing & Leveling, Audio & Video, Miscellaneous
-## X-Website: https://github.com/donniedice/Warcraft3LevelUp
+## X-Website: https://github.com/RGXMods/Warcraft3LevelUp
 ## X-Curse-Project-ID: 594585
 ## X-Wago-ID: yQKyWnN7
 ## X-WoWI-ID: 26266
