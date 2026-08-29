@@ -13,7 +13,6 @@
 ## X-Website: https://github.com/RGXMods/Warcraft3LevelUp
 ## X-Curse-Project-ID: 594585
 ## X-Wago-ID: yQKyWnN7
-## X-WoWI-ID: 26266
 
 data\locales.lua
 data\core.lua
