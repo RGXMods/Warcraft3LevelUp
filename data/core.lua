@@ -9,7 +9,7 @@ local RGX = assert(_G.RGXFramework, "WC3LU: RGX-Framework not loaded")
 
 WC3LU = WC3LU or {}
 
-local ADDON_VERSION = "2.0.2"
+local ADDON_VERSION = "2.0.4"
 local ADDON_NAME = "Warcraft3LevelUp"
 local PREFIX = "|Tinterface/addons/Warcraft3LevelUp/media/icon:16:16|t - |cffffffff[|r|cfff4d038WC3LU|r|cffffffff]|r "
 local TITLE = "|Tinterface/addons/Warcraft3LevelUp/media/icon:18:18|t [|cfff4d038W|r|cffffffffarcraft 3|r |cfff4d038L|r|cffffffffevel|r |cfff4d038U|r|cfff4d038p|r|cfff4d038!|r]"

@@ -1,4 +1,4 @@
-﻿## Interface: 120100,16001
+﻿## Interface: 40402
 ## Version: 2.0.4
 ## Title:  |cffb4d0faWarcraft 3|r Level Up|cffb4d0fa!|r
 ## IconTexture: Interface\AddOns\Warcraft3LevelUp\media\icon.tga
