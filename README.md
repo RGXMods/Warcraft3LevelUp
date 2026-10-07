@@ -1,4 +1,4 @@
-# <span style="color: #f4d038;">🔷 </span> <span style="color: #8b4b5c;">R</span><span style="color: #8b4b5c;">G</span><span style="color: #8b4b5c;">X</span> <span style="color: #f4d038;">| </span> <span style="color: #f4d038;">W</span><span style="color: #ffffff;">arcraft 3 </span><span style="color: #f4d038;">L</span><span style="color: #ffffff;">evel-</span><span style="color: #f4d038;">U</span><span style="color: #ffffff;">p</span><span style="color: #f4d038;">!</span>
+# <span style="color: #f4d038;"></span> <span style="color: #8b4b5c;">R</span><span style="color: #8b4b5c;">G</span><span style="color: #8b4b5c;">X</span> <span style="color: #f4d038;">| </span> <span style="color: #f4d038;">W</span><span style="color: #ffffff;">arcraft 3 </span><span style="color: #f4d038;">L</span><span style="color: #ffffff;">evel-</span><span style="color: #f4d038;">U</span><span style="color: #ffffff;">p</span><span style="color: #f4d038;">!</span>
 
 ![WC3LU Logo](media/logo.png)
 
@@ -6,7 +6,7 @@
 
 ***
 
-## <span style="color: #f4d038;">🎯 Overview</span>
+## <span style="color: #f4d038;">Overview</span>
 
 **Warcraft 3 Level-Up! (WC3LU)** replaces World of Warcraft's configured default level-up sound with a Warcraft 3-inspired chime whenever the player gains a level. It is a small, automatic sound addon built on RGX-Framework.
 
@@ -14,7 +14,7 @@
 
 ***
 
-## <span style="color: #f4d038;">⚠️ Deprecation Notice</span>
+## <span style="color: #f4d038;">Deprecation Notice</span>
 
 <span style="color: #ff6b6b;">**This addon is no longer receiving updates.**</span> Its functionality and Warcraft 3 sound are available in [BLU | Better Level Up!](https://www.curseforge.com/wow/addons/blu-better-level-up) and [BLU Classic | Better Level Up!](https://www.curseforge.com/wow/addons/blu-classic), which combine this sound with a larger sound collection.
 
@@ -22,7 +22,7 @@ Existing standalone users may continue to use this repository as-is, but new ins
 
 ***
 
-## <span style="color: #f4d038;">✨ Behavior and Features</span>
+## <span style="color: #f4d038;">Behavior and Features</span>
 
 - Plays the selected Warcraft 3-inspired sound on `PLAYER_LEVEL_UP`.
 - Provides high, medium, and low OGG variants; medium is selected by default.
@@ -36,7 +36,7 @@ WC3LU does not alter leveling, experience gains, UI frames, or game data. It onl
 
 ***
 
-## <span style="color: #f4d038;">🎮 Requirements and Compatibility</span>
+## <span style="color: #f4d038;">Requirements and Compatibility</span>
 
 `RGX-Framework` is a required dependency and must be installed and enabled. The current TOCs declare these game interfaces:
 
@@ -54,7 +54,7 @@ These values describe the current release metadata. The addon is deprecated, so 
 
 ***
 
-## <span style="color: #f4d038;">📥 Installation</span>
+## <span style="color: #f4d038;">Installation</span>
 
 1. Download a packaged release of Warcraft3LevelUp and install RGX-Framework.
 2. Extract both addon folders into the WoW client's `Interface/AddOns` directory.
@@ -65,7 +65,7 @@ For the consolidated replacement, install BLU or BLU Classic instead of the stan
 
 ***
 
-## <span style="color: #f4d038;">⌨️ Usage and Configuration</span>
+## <span style="color: #f4d038;">⌨Usage and Configuration</span>
 
 WC3LU works automatically once enabled. It has no graphical configuration panel; use `/wc3lu` commands in chat:
 
@@ -83,7 +83,7 @@ The initial defaults are enabled, medium quality, Master-channel playback, defau
 
 ***
 
-## <span style="color: #f4d038;">🧩 Files and Runtime</span>
+## <span style="color: #f4d038;">Files and Runtime</span>
 
 - `data/locales.lua` defines chat and welcome text.
 - `data/core.lua` registers the sound set, events, saved settings, and `/wc3lu` command.
@@ -94,7 +94,7 @@ At addon load, WC3LU initializes its RGX-Framework sound handle. At login it dis
 
 ***
 
-## <span style="color: #f4d038;">🛠️ Troubleshooting</span>
+## <span style="color: #f4d038;">Troubleshooting</span>
 
 - If WoW marks WC3LU as missing a dependency, install or enable `RGX-Framework`.
 - If no custom sound plays, run `/wc3lu test`, then `/wc3lu enable` and select a variant again.
@@ -105,7 +105,7 @@ Because the standalone project is retired, migrate to BLU or BLU Classic when yo
 
 ***
 
-## <span style="color: #f4d038;">🔗 Project Links</span>
+## <span style="color: #f4d038;">Project Links</span>
 
 - [Repository](https://github.com/RGXMods/Warcraft3LevelUp)
 - [Releases](https://github.com/RGXMods/Warcraft3LevelUp/releases)
@@ -117,4 +117,4 @@ This repository is retained for existing users and historical context. Issue rep
 
 ***
 
-## <span style="color: #4ecdc4;">🌟 Thank you for choosing </span> <span style="color: #8b4b5c;">R</span><span style="color: #8b4b5c;">G</span><span style="color: #8b4b5c;">X</span> <span style="color: #4ecdc4;">Mods! 🌟</span>
+## <span style="color: #4ecdc4;">Thank you for choosing </span> <span style="color: #8b4b5c;">R</span><span style="color: #8b4b5c;">G</span><span style="color: #8b4b5c;">X</span> <span style="color: #4ecdc4;">Mods! </span>
