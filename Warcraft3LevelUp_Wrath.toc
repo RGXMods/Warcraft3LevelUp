@@ -11,6 +11,7 @@
 
 ## X-Category: UI Media, Questing & Leveling, Audio & Video, Miscellaneous
 ## X-Website: https://github.com/RGXMods/Warcraft3LevelUp
+## X-Localizations: enUS, deDE, esES, esMX, frFR, itIT, koKR, ptBR, ptPT, ruRU, zhCN, zhTW
 ## X-Curse-Project-ID: 594585
 ## X-Wago-ID: yQKyWnN7
 

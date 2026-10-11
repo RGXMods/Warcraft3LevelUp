@@ -49,9 +49,9 @@ print(PREFIX .. " " .. (L["HELP_HEADER"] or ""))
 print(PREFIX .. " " .. (L["HELP_TEST"] or ""))
 print(PREFIX .. " " .. (L["HELP_ENABLE"] or ""))
 print(PREFIX .. " " .. (L["HELP_DISABLE"] or ""))
-print(PREFIX .. " |cffffffff/wc3lu high|r - Use high quality sound")
-print(PREFIX .. " |cffffffff/wc3lu med|r - Use medium quality sound")
-print(PREFIX .. " |cffffffff/wc3lu low|r - Use low quality sound")
+print(PREFIX .. " " .. (L["HELP_HIGH"] or ""))
+print(PREFIX .. " " .. (L["HELP_MED"] or ""))
+print(PREFIX .. " " .. (L["HELP_LOW"] or ""))
 end
 
 local function HandleSlashCommand(args)
@@ -112,6 +112,6 @@ end, "WC3LU_PLAYER_LOGOUT")
 RGX:RegisterSlashCommand("wc3lu", function(msg)
 local ok, err = pcall(HandleSlashCommand, msg)
 if not ok then
-print(PREFIX .. " |cffff0000WC3LU Error:|r " .. tostring(err))
+print(PREFIX .. " " .. (L["ERROR_PREFIX"] or "") .. " " .. tostring(err))
 end
 end, "WC3LU_SLASH")
